@@ -1,0 +1,89 @@
+```
+ManpowerApp/
+├── android/                    # Android native code
+├── ios/                        # iOS native code
+├── src/                        # Main source code
+│   ├── assets/                 # Static assets
+│   │   ├── fonts/              # Custom fonts
+│   │   ├── images/             # Image assets
+│   │   └── icons/              # Icon assets
+│   ├── components/             # Reusable components
+│   │   ├── common/             # Common UI components
+│   │   │   ├── Button.tsx                                                (DONE)
+│   │   │   ├── Card.tsx                                                  (DONE)
+│   │   │   ├── Header.tsx                                                (DONE)
+│   │   │   ├── Input.tsx                                                 (DONE)
+│   │   │   └── ...
+│   │   ├── forms/              # Form components
+│   │   │   ├── FormField.tsx                                             (DONE)
+│   │   │   ├── FormContainer.tsx                                         (DONE)
+│   │   │   └── ...
+│   │   └── screens/            # Screen-specific components
+│   │       ├── home/
+│   │       ├── auth/
+│   │       └── jobs/
+│   │           |── JobListScreen.tsx                                      (DONE)
+│   │           |── JobDetailsScreen.tsx                                   (DONE)
+│   ├── config/                 # Configuration files
+│   │   ├── firebase.ts         # Firebase config
+│   │   └── theme.ts            # App theme config                         (DONE)
+│   ├── constants/              # App constants
+│   │   ├── colors.ts           # Color definitions
+│   │   ├── routes.ts           # Route names
+│   │   └── ...
+│   ├── hooks/                  # Custom hooks
+│   │   ├── useAuth.ts
+│   │   ├── useFirestore.ts
+│   │   └── ...
+│   ├── navigation/             # Navigation setup
+│   │   ├── AppNavigator.tsx     # Main app navigator                      (DONE)
+│   │   ├── AuthNavigator.tsx    # Auth flow navigator                     (DONE)
+│   │   ├── HomeNavigator.tsx    # Home tabs navigator                     (DONE)
+│   │   └── types.ts            # Navigation type definitions         # NEW(DONE)
+│   ├── redux/                  # Redux store setup
+│   │   ├── store.ts            # Redux store configuration                (DONE)
+│   │   ├── slices/             # Redux slices
+│   │   │   ├── authSlice.ts                                               (DONE)
+│   │   │   ├── userSlice.ts                                               (DONE)
+│   │   │   └── ...
+│   │   └── types.ts            # Redux type definitions              # NEW(DONE)
+│   ├── screens/                # App screens
+│   │   ├── auth/               # Authentication screens
+│   │   │   ├── LoginScreen.tsx                                            (DONE)
+│   │   │   ├── SignUpScreen.tsx                                           (DONE)
+│   │   │   └── ...
+│   │   ├── home/               # Home/Dashboard screens
+│   │   │   ├── HomeScreen.tsx                                             (DONE)
+│   │   │   ├── ProfileScreen.tsx                                          (DONE)
+│   │   │   └── ...
+│   │   ├── jobs/               # Job-related screens
+│   │   │   ├── JobListScreen.tsx                                          (DONE)
+│   │   │   ├── JobDetailScreen.tsx                                        (DONE)
+│   │   │   └── ...
+│   │   ├── settings/           # Settings screens
+│   │   │   ├── SettingsScreen.tsx                                         (DONE)
+│   │   │   └── ...
+│   │   └── ...
+│   ├── services/               # API and service functions
+│   │   ├── api.ts              # API functions                             (DONE)
+│   │   ├── auth.ts             # Auth services                             (DONE)
+│   │   └── jobs.ts             # job related apis                          (DONE)
+│   │   └── user.ts             # user related apis                         (DONE)
+│   ├── types/                  # TypeScript type definitions          # NEW
+│   │   ├── api.types.ts        # API related types                         (DONE)
+│   │   ├── models.types.ts     # Data model types                          (DONE)
+│   │   └── ...
+│   ├── utils/                  # Utility functions
+│   │   ├── formatters.ts       # Data formatters
+│   │   ├── validators.ts       # Form validation
+│   │   └── ...
+│   └── App.tsx                 # Main App component                      (DONE)
+├── .gitignore                  # Git ignore file
+├── app.json                    # App configuration
+├── babel.config.js             # Babel configuration
+├── index.js                    # Entry point
+├── metro.config.js             # Metro bundler config
+├── package.json                # Dependencies
+├── tsconfig.json               # TypeScript configuration            
+└── README.md                   # Project documentation
+```

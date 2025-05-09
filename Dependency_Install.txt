@@ -1,0 +1,20 @@
+# Base & Navigation
+npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context react-native-gesture-handler
+
+# UI Components
+npm install react-native-paper react-native-vector-icons react-native-responsive-fontsize react-native-responsive-screen
+
+# Firebase Integration
+npm install @react-native-firebase/app @react-native-firebase/auth @react-native-firebase/firestore @react-native-firebase/storage @react-native-google-signin/google-signin
+
+# Form Handling
+npm install react-hook-form yup
+
+# Data Fetching
+npm install axios
+
+# State Management
+npm install @reduxjs/toolkit react-redux
+
+# Additional Utilities
+npm install react-native-splash-screen react-native-reanimated moment react-native-fast-image
